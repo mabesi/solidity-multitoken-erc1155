@@ -19,7 +19,7 @@ This implementation was created using the [Remix](https://remix.ethereum.org/) o
 
 - ...
 
-### 🛠️ Built with
+### 🛠️ Built With
 
 - Solidity
 
@@ -68,15 +68,11 @@ Thanks to all these amazing people and tools that served as a source of knowledg
 - [Basic NFT ERC-721](https://github.com/mabesi/solidity-nft-erc721)
 - [Basic Azuki NFT ERC-721A](https://github.com/mabesi/azuki-nft)
 
-### ✒️ Authors
+### ✒️ Authors & Contributors
 
-| [<img loading="lazy" src="https://github.com/mabesi/mabesi/blob/master/octocat-mabesi.png" width=115><br><sub>Plinio Mabesi</sub>](https://github.com/mabesi) | :---: |
-| :---: | :---: |
+| [<img loading="lazy" src="https://github.com/mabesi/mabesi/blob/master/octocat-mabesi.png" width=115><br><sub>Plinio Mabesi</sub>](https://github.com/mabesi) |
+| :---: |
 
-### 🖇️ Contributors
-
-| [<img loading="lazy" src="https://github.com/mabesi/mabesi/blob/master/octocat-mabesi.png" width=115><br><sub>Plinio Mabesi</sub>](https://github.com/mabesi) | :---: |
-| :---: | :---: |
 
 ### 🛃 Legal disclaimer
 
