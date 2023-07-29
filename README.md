@@ -1,16 +1,19 @@
 # BASIC MULTI TOKEN ERC-1155
 
-This simple project is an implementation example of [ERC-1155 Standard](https://eips.ethereum.org/EIPS/eip-1155).
-
-<div align="center">
-  <kbd>
-    <img src="https://i.imgur.com/zdY3ZC9.png" />
-  </kbd>
-</div>
+This simple project is an example of [ERC-1155 Standard](https://eips.ethereum.org/EIPS/eip-1155) implementation.
 
 ## Description
 
-Longer description explaining the rationale/intent behind the project, what it's good for, and how it works. If the next two subsections are short enough, they can be merged up into this block—perhaps as bulleted lists.
+<p align="justify">A token standard defines the smart contract and features that the token issued by it has. There are many different standards on different blockchains. The simplest categorization would be between fungible and non-fungible tokens.</p>
+<p align="justify">The ERC-1155 Multi Token Standard is a type of smart contract that allows users to manage Ethereum tokens of many types. It can contain ERC-20 or ERC-721 tokens and it works for all types of assets: fungible and non-fungible.</p>
+
+This implementation was created using the [Remix](https://remix.ethereum.org/) online code editor.
+
+<div align="center">
+  <kbd>
+    <img src="/remix-multitoken-code.png" />
+  </kbd>
+</div>
 
 ### Features
 
@@ -46,27 +49,35 @@ Or FAQs, if that's more appropriate.
 
 ## Back matter
 
-### Legal disclaimer
+### 🛃 Legal disclaimer
 
-Usage of this tool for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state, and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
+<p align="justify">This tool was created for educational purposes and has the sole purpose of serving as an example of the implementation of a Smart Contract following the proposed standards, in accordance with what is contained in the references.</p>
+<p align="justify">The use of this tool, for any purpose, will occur at your own risk, being your sole responsibility for any legal implications arising from it.</p>
+<p align="justify">It is the end user's responsibility to obey all applicable local, state, and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.</p>
 
-### Acknowledgements
+### 🎁 Acknowledgements
 
-Thanks to all who helped inspire this template.
+Thanks to all these amazing people and tools that served as a source of knowledge or were an integral part in the construction of this project.
 
-### See also
+- [Luiz Tools](https://www.luiztools.com.br/) - Web3 Online Courses
+- [Remix - Ethereum IDE](https://remix.ethereum.org/) - Online Code Editor
+- [OpenZepellin](https://www.openzeppelin.com/) - Web3 Solidity Libraries
+- [Pinata](https://app.pinata.cloud/) - IPFS File Sharing
+- [Fleek](https://fleek.co/) - IPFS Hosting
 
-- [A simple README.md template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
-- [A template to make good README.md](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-- [A sample README for all your GitHub projects](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
-- [A simple README.md template to kickstart projects](https://github.com/me-and-company/readme-template)
+### 🔎 See also
 
-### To-do
+- [Basic Token ERC-20](https://github.com/mabesi/solidity-coin-erc20)
+- [Basic Token BEP-20](https://github.com/mabesi/solidity-coin-bep20)
+- [Basic NFT ERC-721](https://github.com/mabesi/solidity-nft-erc721)
+- [Basic Azuki NFT ERC-721A](https://github.com/mabesi/azuki-nft)
 
-- [ ] Still need to do this
-- [ ] ~~Decided not to do this~~
-- [x] Done!
+### :clap: Contributors
 
-### License
+| [<img loading="lazy" src="https://github.com/mabesi/mabesi/blob/master/octocat-mabesi.png" width=115><br><sub>Plinio Mabesi</sub>](https://github.com/mabesi) | :---: |
+| :---: | :---: |
+
+
+### 📄 License
 
 This project is licensed under the [MIT License](LICENSE.md).
