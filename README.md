@@ -32,7 +32,7 @@ These are the key features of an ERC-1155 smart contract:
 
 - Solidity
 
-## Getting started
+## Getting Started
 
 ### 📋 Prerequisites
 
@@ -69,7 +69,8 @@ After create the [Metadata URI JSON Schema](https://eips.ethereum.org/EIPS/eip-1
         require(_id < 3, "This token does not exists");
 
         // Replace the "ipfs://hashaddresstoyoururi/" for your own URI Address
-        // If you don't use the ID and the .json sufix, change them too before deploy your contract 
+        // If you don't use the ID and the .json sufix like these,
+        // change them too before deploy your contract 
         return string.concat("ipfs://hashaddresstoyoururi/", Strings.toString(_id),".json");
     }
 ```
@@ -158,7 +159,9 @@ Keep in mind that the specific steps and options available for interacting with 
 
 ### 🔧 Troubleshooting
 
-Not applicable.
+Contracts published on the blockchain are immutable. Thus, if it is necessary to correct any errors or make any changes, you must deploy again, generating a new contract address and reinitializing all state variable information.
+
+It is possible to perform data migration in case of a new deployment of the contract, but for this you must make a plan, performing the backup beforehand and creating a migration script.
 
 ## Back Matter
 
