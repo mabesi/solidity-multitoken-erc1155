@@ -11,7 +11,7 @@ This implementation was created using the [Remix](https://remix.ethereum.org/) o
 
 <div align="center">
   <kbd>
-    <img src="/remix-multitoken-code.png" />
+    <img src="/assets/remix-multitoken-code.png" />
   </kbd>
 </div>
 
@@ -78,12 +78,13 @@ After create the [Metadata URI JSON Schema](https://eips.ethereum.org/EIPS/eip-1
 
 To deploy your ERC-1155 smart contract follow these steps:
 
-1. Copy the smart contract code
+1. Copy the smart contract code at `/src/MultiToken.sol`
 2. Open the [Remix IDE](https://remix.ethereum.org/)
   - On the left-hand side, you'll see the file explorer
   - Right-click and select "Create File" to create a new file for your smart contract
   - Give it a name and .sol extension, which indicates it's a Solidity smart contract file
 3. In the new file created, paste your Solidity smart contract code copyed
+  - Adjust the variables values as described in `Configuration` section
 4. Compile the contract by clicking on "Compile <file>" at the "Solidity Compiler" tab on left-hand side
 5. Connect Remix to MetaMask (or any compatible Ethereum or testnet wallet) by clicking the "Connect to a Web3 Provider" button
 6. Follow the instructions to connect your wallet
